@@ -1,3 +1,47 @@
-HAWK: IoT Network Intrusion DetectionHAWK is a high-performance Network Intrusion Detection System (NIDS) designed for IoT environments. It utilizes the UNSW-NB15 dataset to identify and mitigate cyber threats using advanced Machine Learning (ML) and Deep Learning (DL) architectures.🛠 PrerequisitesEnvironment: Google Colaboratory or Jupyter Notebook.Libraries: Sklearn, Pandas, Numpy, Matplotlib, Pickle.🚀 Quick StartClone & Setup:Bashgit clone https://github.com/Rarex224/ML-network-intrusion-detection-HAWK.git
+# 1. Update README with Inspiration & Modifications section
+@'
+# 🦅 HAWK: IoT Network Intrusion Detection
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+
+**HAWK** is a high-performance Network Intrusion Detection System (NIDS) specifically architected for IoT environments. By leveraging the **UNSW-NB15 dataset**, HAWK identifies and classifies cyber threats using optimized Machine Learning and Deep Learning pipelines.
+
+---
+
+## 💡 Inspiration & Origin
+This project is inspired by the pioneering work of **Nour Moustafa** and the **UNSW-NB15** research team. The original codebase served as a foundation for exploring network anomaly detection.
+
+### 🛠 What We Modified
+While the core logic remains true to the original research, **HAWK** introduces two key technical refinements:
+1.  **Feature Selection Logic:** We recalibrated the **Pearson Correlation thresholds**, narrowing down the feature set to the most statistically significant variables ($r > 0.3$) to reduce model noise and training time.
+2.  **Model Hyperparameters:** We updated the classifier parameters (specifically for Random Forest and MLP) to better handle the imbalanced nature of the preprocessed dataset, resulting in higher accuracy for minority attack classes.
+
+---
+
+## 🚀 Quick Start
+```bash
+# Clone the repository
+git clone [https://github.com/Rarex224/ML-network-intrusion-detection-HAWK.git](https://github.com/Rarex224/ML-network-intrusion-detection-HAWK.git)
 cd ML-network-intrusion-detection-HAWK
-Data: Ensure UNSW_NB15.csv and its feature mapping files are in the directory.Execution: Open HAWK_Engine.ipynb and run all cells (Ctrl + F9).📂 Dataset OverviewThe system processes the UNSW-NB15 dataset, featuring:Binary Classification: Distinguishes between Normal and Abnormal traffic.Multi-class Classification: Categorizes traffic into 9 attack types: Analysis, Backdoor, DoS, Exploits, Fuzzers, Generic, Normal, Reconnaissance, and Worms.⚙️ Data PipelineCleaning: Dropped null values, reducing the set to 81,173 high-quality rows.Preprocessing: * One-Hot-Encoding for categorical data (proto, service, state).MinMax Scaling for 58 numeric columns.Feature Selection: Pearson Correlation Coefficient used to select the top 15 attributes for binary and 16 for multi-class detection.📊 Model PerformanceHAWK implements seven distinct algorithms. Performance highlights include:ModelBinary AccuracyMulti-class AccuracyRandom Forest98.64%97.31%MLP Classifier98.36%97.54%K-Nearest Neighbor98.30%97.36%Decision Tree98.09%97.19%
+pip install -r requirements.txt
+
+
+
+Data Preprocessing
+Cleaning: Handled missing values, resulting in 81,173 high-quality samples.
+
+Encoding: Applied One-Hot-Encoding to proto, service, and state.
+
+Scaling: Normalized features using MinMax Scaler.
+
+📚 Citations
+Moustafa, N., & Slay, J. (2015). UNSW-NB15: a comprehensive data set for network intrusion detection systems. MilCIS. DOI: 10.1109/MilCIS.2015.7348942.
+'@ | Out-File -FilePath README.md -Encoding utf8
+
+2. Commit and Push the update
+git add README.md
+git commit -m "docs: add inspiration and modification details"
+git push origin main
+
