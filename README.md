@@ -44,3 +44,9 @@ git add README.md
 git commit -m "docs: add inspiration and modification details"
 git push origin main
 
+
+
+> [!IMPORTANT]
+> **Original Repository:** [IoT-Network-Intrusion-Detection-System-UNSW-NB15](https://github.com/now-its-abhi/IoT-Network-Intrusion-Detection-System-UNSW-NB15)
+> 
+> **Research Citation:** N. Moustafa and J. Slay, "UNSW-NB15: a comprehensive data set for network intrusion detection systems," 2015 MilCIS.
