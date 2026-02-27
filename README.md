@@ -25,15 +25,7 @@ While the core logic remains true to the original research, **HAWK** introduces 
 > **Research Citation:** N. Moustafa and J. Slay, "UNSW-NB15: a comprehensive data set for network intrusion detection systems," 2015 MilCIS.
 
 
-
-## 🚀 Quick Start
 ```bash
-# Clone the repository
-git clone [https://github.com/Rarex224/ML-network-intrusion-detection-HAWK.git](https://github.com/Rarex224/ML-network-intrusion-detection-HAWK.git)
-cd ML-network-intrusion-detection-HAWK
-pip install -r requirements.txt
-
-
 
 Data Preprocessing
 Cleaning: Handled missing values, resulting in 81,173 high-quality samples.
