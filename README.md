@@ -44,11 +44,6 @@ Scaling: Normalized features using MinMax Scaler.
 
 📚 Citations
 Moustafa, N., & Slay, J. (2015). UNSW-NB15: a comprehensive data set for network intrusion detection systems. MilCIS. DOI: 10.1109/MilCIS.2015.7348942.
-'@ | Out-File -FilePath README.md -Encoding utf8
 
-2. Commit and Push the update
-git add README.md
-git commit -m "docs: add inspiration and modification details"
-git push origin main
 
 
